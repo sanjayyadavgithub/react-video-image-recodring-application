@@ -22,7 +22,7 @@ const port =  8800;
 const connect = () => {
   mongoose.set("strictQuery", true);
   mongoose
-    .connect("mongodb+srv://soloseh824:nlU4J9iNh5hyYUOH@cluster0.bl9ourj.mongodb.net/?retryWrites=true&w=majority")
+    .connect("mongodb+srv://soloseh824:@cluster0.bl9ourj.mongodb.net/?retryWrites=true&w=majority")
     .then(() => {
       console.log("MongoDB connected Successfully.......");
     })
